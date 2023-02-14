@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logoImg from "../images/logo.svg";
 import NavItem from "./navItem";
+import "./header.css";
 
 const Header = () => {
 	const [navItems, setNavItems] = useState([

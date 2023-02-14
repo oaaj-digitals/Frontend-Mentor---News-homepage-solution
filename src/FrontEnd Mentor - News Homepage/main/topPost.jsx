@@ -1,22 +1,23 @@
 import React, { useState } from "react";
+import "./topPost.css";
 
 const TopPost = ({ data }) => {
 	const [topPost, setTopPost] = useState(data);
 
 	return (
-		<div className="recent-post" id={`recent-post-${topPost.id}`}>
+		<div className="top-post" id={`top-post-${topPost.id}`}>
 			<img
 				src={process.env.PUBLIC_URL + topPost.imgSrc}
 				alt={topPost.imgALt}
-				className="recent-post-img"
+				className="top-post-img"
 			/>
 
-			<div className="recent-post-info">
-				<p className="recent-post-numb">{topPost.position}</p>
-				<a href="#" className="link recent-post-title ">
+			<div className="top-post-info">
+				<p className="top-post-numb">{topPost.position}</p>
+				<a href="#" className="link top-post-title ">
 					{topPost.title}
 				</a>
-				<p className="recent-post-dex text">{topPost.body}</p>
+				<p className="top-post-dex text">{topPost.body}</p>
 			</div>
 		</div>
 	);

@@ -1,5 +1,6 @@
 import React from "react";
 import postImg from "../images/image-web-3-desktop.jpg";
+import "./featuredPost.css";
 
 const FeaturedPost = () => {
 	return (

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./navitem.css";
 
 const NavItem = ({ data }) => {
 	const [navItem, setNavItem] = useState(data);

@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,34 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+*/
+
+@font-face {
+	font-family: Inter;
+	src: url("./FrontEnd\ Mentor\ -\ News\ Homepage/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter";
+	position: relative;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	/* height: 100vh; */
+	background-color: hsl(36, 100%, 99%);
+	/* overflow: hidden; */
+	padding: 5rem 14rem;
+}
+
+#root {
+	width: 100%;
 }

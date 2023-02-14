@@ -1,0 +1,30 @@
+.top-post {
+	display: flex;
+	height: 15rem;
+	width: 30%;
+	gap: 3rem;
+}
+
+.top-post-img,
+.top-post-info {
+	height: 100%;
+}
+
+.top-post-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.top-post-numb {
+	font-size: 3rem;
+	font-weight: 800;
+	color: hsl(233, 8%, 79%);
+}
+
+.top-post-title {
+	font-size: 1.7rem !important;
+	font-weight: 800 !important;
+	color: hsl(240, 100%, 5%) !important;
+}

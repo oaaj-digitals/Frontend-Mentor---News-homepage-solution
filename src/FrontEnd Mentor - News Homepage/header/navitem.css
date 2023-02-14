@@ -1,0 +1,18 @@
+.navbar,
+.nav-list,
+.nav-item,
+.nav-link {
+	height: 100%;
+	display: flex;
+	/* gap: 3rem; */
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-link {
+	padding: 0 2rem;
+}
+
+.nav-item:last-child .nav-link:last-child {
+	padding-right: 0;
+}

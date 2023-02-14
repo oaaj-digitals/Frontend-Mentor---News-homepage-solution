@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./post.css";
 
 const Post = ({ data }) => {
 	const [post, setPost] = useState(data);

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TopPost from "./topPost";
+import "./topPosts.css";
 
 const TopPosts = () => {
 	const [topPosts, setTopPost] = useState([
