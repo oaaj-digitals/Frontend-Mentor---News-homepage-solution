@@ -24,9 +24,11 @@ const NewPosts = () => {
 	return (
 		<div className="container" id="new-posts">
 			<h3 className="new-title">New</h3>
-			{posts.map((post) => (
-				<Post key={post.id} data={post} />
-			))}
+			<div class="new-post-div">
+				{posts.map((post) => (
+					<Post key={post.id} data={post} />
+				))}
+			</div>
 		</div>
 	);
 };
