@@ -41,3 +41,29 @@ body {
 #root {
 	width: 100%;
 }
+
+@media (max-width: 75em) {
+	html {
+		font-size: 56.25%;
+	}
+}
+
+@media (max-width: 56.25em) {
+	html {
+		font-size: 50%;
+	}
+
+	body {
+		padding: 6rem 8rem;
+	}
+}
+
+@media (max-width: 37.5em) {
+	html {
+		font-size: 43.75%;
+	}
+
+	body {
+		padding: 4rem 5rem;
+	}
+}

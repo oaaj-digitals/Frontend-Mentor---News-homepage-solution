@@ -22,3 +22,17 @@
 	font-weight: 700;
 	width: 100%;
 }
+
+@media (max-width: 37.5em) {
+	#new-posts {
+		width: 100%;
+		margin-top: 7rem;
+		height: min-content;
+		padding: 4rem 3rem;
+	}
+
+	.new-post-div {
+		margin-top: 4rem;
+		gap: 4rem;
+	}
+}

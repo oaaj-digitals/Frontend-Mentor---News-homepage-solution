@@ -28,3 +28,9 @@ hr {
 hr:last-child {
 	display: none;
 }
+
+@media (max-width: 37.5em) {
+	.new-post {
+		gap: 2rem;
+	}
+}

@@ -52,3 +52,30 @@
 	font-size: 1.5rem !important;
 	font-weight: 700 !important;
 }
+
+@media (max-width: 37.5em) {
+	#featured-post {
+		width: 100%;
+	}
+
+	.post-img-div {
+		height: 40vh;
+	}
+
+	.post-info {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.post-title-div,
+	.post-des-div {
+		width: 100%;
+		margin-top: 3rem;
+	}
+
+	.post-btn {
+		margin-top: 3rem;
+		padding: 2rem 4rem;
+		font-size: 2.2rem;
+	}
+}

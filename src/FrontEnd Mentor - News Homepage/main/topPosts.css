@@ -5,3 +5,9 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+@media (max-width: 37.5em) {
+	#top-post {
+		gap: 4rem;
+	}
+}

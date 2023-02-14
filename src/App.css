@@ -38,3 +38,9 @@
 	font-weight: 400;
 	letter-spacing: 0.5px;
 }
+
+@media (max-width: 37.5em) {
+	.text {
+		font-size: 1.6rem;
+	}
+}
