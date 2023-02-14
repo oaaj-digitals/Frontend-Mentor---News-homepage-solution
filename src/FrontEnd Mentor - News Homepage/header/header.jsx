@@ -33,8 +33,8 @@ const Header = () => {
 
 	return (
 		<header>
-			<div class="logo-Div">
-				<img src={logoImg} alt="news logo" class="logo" />
+			<div className="logo-Div">
+				<img src={logoImg} alt="news logo" className="logo" />
 			</div>
 			<nav className="navbar">
 				<ul className="nav-list" id="nav-list">
